@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+body {
+  font-family: menlo, courier new, monospace, sans-serif;
+  line-height: 1.75;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, hr, ol, ul, table, pre {
+  margin-bottom: 1.5rem;
+}
+
+li > ul, li > ol {
+  margin-bottom: 0;
+}
+
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before, blockquote:before {
+  position: absolute;
+  transform: translateX(-100%);
+  padding-right: 0.5rem;
+}
+
+li > ul, li > ol {
+  padding-left: 1rem;
+}
+
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before, s:before, s:after, a:before, a:after, strong:before, strong:after, em:before, em:after, blockquote:before, li:before, code:before, code:after {
+  color: #999;
+}
+
+h1, h2, h3, h4, h5, h6, strong, th {
+  font-weight: bold;
+}
+
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before, strong:before, strong:after {
+  font-weight: normal;
+}
+
+em:before, em:after {
+  font-style: normal;
+}
+
+h1:before {
+  content: '#';
+}
+
+h2:before {
+  content: '##';
+}
+
+h3:before {
+  content: '###';
+}
+
+h4:before {
+  content: '####';
+}
+
+h5:before {
+  content: '#####';
+}
+
+h6:before {
+  content: '######';
+}
+
+s:before, s:after {
+  content: '~~';
+}
+
+a {
+  color: #000;
+}
+a:before {
+  content: '[';
+}
+a:after {
+  content: ']';
+}
+
+strong:before, strong:after {
+  content: '**';
+}
+
+em {
+  font-style: italic;
+}
+em:before, em:after {
+  content: '_';
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #eee;
+}
+
+blockquote:before {
+  content: '>';
+}
+
+ol {
+  counter-reset: section;
+}
+ol > li:before {
+  counter-increment: section;
+  content: counter(section) ".";
+}
+
+ul > li:before {
+  content: '-';
+}
+
+li:before {
+  padding-right: 0.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  border: solid 1px #eee;
+  padding: 0.5rem 1rem;
+}
+
+th {
+  background: #fafafa;
+}
+
+code:before, code:after {
+  content: '`';
+}
+
+pre code:before, pre code:after {
+  content: '```';
+  display: block;
+}
