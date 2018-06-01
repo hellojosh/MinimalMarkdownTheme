@@ -1,2 +1,3 @@
-# MinimalMarkdownTheme
-A small set of styles to make a webpage look like a Markdown editor.
+# Minimal Markdown Theme
+
+Add the `theme` stylesheet to any basic page that has been created with [Markdown](https://daringfireball.net/projects/markdown/) and enjoy.
